@@ -4,7 +4,7 @@ from bank_account import BankAccount
 
 
 def test_bank_account_initial_balance():
-    amount = BankAccount(1000)
+    amount = BankAccount(2000)
     assert amount.get_balance() == 1000, "残高が正しくありません"
 
 
