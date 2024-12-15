@@ -1,6 +1,6 @@
 import pytest
 
-from src.bank_account import BankAccount
+from bank_account import BankAccount
 
 
 def test_bank_account_initial_balance():

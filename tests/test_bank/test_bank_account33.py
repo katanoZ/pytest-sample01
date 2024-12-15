@@ -1,6 +1,6 @@
 from unittest.mock import patch
 
-from src.bank_account import BankAccount
+from bank_account import BankAccount
 
 
 def test_get_balance_in_currency():

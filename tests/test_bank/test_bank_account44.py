@@ -1,6 +1,6 @@
 import pytest
 
-from src.bank_account import BankAccount
+from bank_account import BankAccount
 
 
 @pytest.mark.parametrize(
